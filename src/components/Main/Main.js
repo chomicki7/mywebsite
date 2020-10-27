@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const github = <FontAwesomeIcon icon={faGithub} border />;
+const github = <FontAwesomeIcon icon={faGithub} border/>;
 const envelope = <FontAwesomeIcon icon={faEnvelope} border />;
 const linkedin = <FontAwesomeIcon icon={faLinkedin} border />;
 
@@ -66,30 +66,30 @@ class Main extends Component {
         </section>
 
         <section id="contact" className="contact">
-          <h2>Contacta conmigo!</h2>
-          <div className="links">
-            <a
-              href="https://www.linkedin.com/in/mariano-chomicki-134829103/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {linkedin}
-            </a>
-            <a
-              href="mailto:chomicki7@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {envelope}
-            </a>
-            <a
-              href="https://github.com/chomicki7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {github}
-            </a>
-          </div>
+          <h2>Contacta conmigo:</h2>
+          {/*           <div className="links"> */}
+          <a
+            href="https://www.linkedin.com/in/mariano-chomicki-134829103/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {linkedin}
+          </a>
+          <a
+            href="mailto:chomicki7@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {envelope}
+          </a>
+          <a
+            href="https://github.com/chomicki7"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {github}
+          </a>
+          {/*           </div> */}
         </section>
       </div>
     );

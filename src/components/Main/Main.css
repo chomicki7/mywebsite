@@ -131,10 +131,7 @@ a img:hover {
 
 .links {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   font-style: none;
-}
-
-linkedin {
-  color: #000000;
+  margin: 0% 20em;
 }

@@ -7,7 +7,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const github = <FontAwesomeIcon icon={faGithub} border/>;
+const github = <FontAwesomeIcon icon={faGithub} border />;
 const envelope = <FontAwesomeIcon icon={faEnvelope} border />;
 const linkedin = <FontAwesomeIcon icon={faLinkedin} border />;
 
@@ -43,20 +43,20 @@ class Main extends Component {
         <section className="work" id="work">
           <h2>Last projects I have done</h2>
           <h3>
-            <span>&#60;</span> Calculator Vanilla JS <span>&#62;</span>
+            <span>&#60;</span> Vanilla JS Calculator <span>/ &#62;</span>
           </h3>
           <a
-            href="https://codepen.io/chomicki7/pen/yLJMQJr"
+            href="https://codepen.io/chomicki7/full/yLJMQJr"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src={Calculator} alt="calculadora"></img>
           </a>
           <h3>
-            <span>&#60;</span> Note-like Gym tracking App <span>&#62;</span>
+            <span>&#60;</span> Note-like Gym tracking App <span>/ &#62;</span>
           </h3>
           <a
-            href="https://codepen.io/chomicki7/pen/KKMWrQL"
+            href="https://codepen.io/chomicki7/full/KKMWrQL"
             target="_blank"
             rel="noopener noreferrer"
             className="margin"
@@ -66,7 +66,7 @@ class Main extends Component {
         </section>
 
         <section id="contact" className="contact">
-          <h2>Contacta conmigo:</h2>
+          <h2>Get in touch:</h2>
           {/*           <div className="links"> */}
           <a
             href="https://www.linkedin.com/in/mariano-chomicki-134829103/"

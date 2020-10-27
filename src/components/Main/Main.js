@@ -76,18 +76,18 @@ class Main extends Component {
               {envelope}
             </a>
             <a
-              href="https://github.com/chomicki7"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {github}
-            </a>
-            <a
               href="https://www.linkedin.com/in/mariano-chomicki-134829103/"
               target="_blank"
               rel="noopener noreferrer"
             >
               {linkedin}
+            </a>
+            <a
+              href="https://github.com/chomicki7"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {github}
             </a>
           </div>
         </section>

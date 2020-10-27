@@ -1,4 +1,4 @@
-:root {
+html {
   scroll-behavior: smooth;
   margin: 0%;
   font-family: "Nunito", sans-serif;
@@ -100,6 +100,7 @@ a img:hover {
   flex-direction: column;
   align-items: center;
   border-bottom: 20px solid #8d0c0c;
+  border-top: 20px solid #8d0c0c;
 }
 
 .work h2,
@@ -142,5 +143,5 @@ a img:hover {
 }
 
 .contact a:hover {
-  background-color: #1b1b1b;
+  background-color: #0a0a0a;
 }

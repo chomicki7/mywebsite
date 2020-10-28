@@ -154,10 +154,15 @@ span {
 .contact a {
   font-size: 3em;
   margin: 1em;
+  padding: 0.3em;
+  border-radius: 20px;
   text-align: center;
   transition: 0.5s;
+  border: 1px solid #adadad;
 }
 
 .contact a:hover {
   background-color: #0a0a0a;
 }
+
+@media screen and (max-width: 400);

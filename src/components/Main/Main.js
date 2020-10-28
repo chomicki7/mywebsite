@@ -7,9 +7,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const github = <FontAwesomeIcon icon={faGithub} border />;
-const envelope = <FontAwesomeIcon icon={faEnvelope} border />;
-const linkedin = <FontAwesomeIcon icon={faLinkedin} border />;
+const github = <FontAwesomeIcon icon={faGithub} />;
+const envelope = <FontAwesomeIcon icon={faEnvelope} />;
+const linkedin = <FontAwesomeIcon icon={faLinkedin} />;
 
 class Main extends Component {
   render() {
@@ -30,7 +30,7 @@ class Main extends Component {
             <div className="description">
               <p>
                 <span>Self taught</span> developer,<span>eager to learn</span>{" "}
-                new technologies. <span>Highly motivated</span> and
+                new technologies. <span>A highly motivated</span> and
                 <span> goal-oriented</span> individual committed to pursuing a
                 long-term career change in development. Looking to take
                 advantage of having a customer-service oriented background that

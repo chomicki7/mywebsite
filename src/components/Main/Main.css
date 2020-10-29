@@ -69,7 +69,7 @@ h4 {
 
 li {
   padding: 0.7em;
-  border-radius: 8px;
+  border-radius: 6px;
   letter-spacing: 0.1em;
   background-color: #9d0208;
   box-shadow: 11px 9px 9px 5px rgba(0, 0, 0, 0.72);
@@ -81,6 +81,12 @@ ul a {
   color: #ffffff;
 }
 
+li:hover {
+  background-color: #86080c83;
+  border: 1px inset #8d8080;
+  padding: 0.6em;
+}
+
 .description {
   display: flex;
   justify-content: center;
@@ -90,7 +96,7 @@ ul a {
   padding: 1.2em;
   margin-top: 1em;
   width: 30%;
-  background-color: #03071e27;
+  background-color: #03071e7a;
   border-radius: 30px;
   box-shadow: 11px 9px 9px 5px rgba(0, 0, 0, 0.72);
   color: #edf2f4;
@@ -186,10 +192,18 @@ span {
   .about {
     padding: 0;
   }
+  .contact {
+    flex-wrap: nowrap;
+  }
+  .contact h3 {
+    display: none;
+  }
+  .work h3 {
+    font-size: 0.8em;
+  }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px),
-  (orientation: landscape) {
+@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
   /*   .about {
     padding: 0;
   } */

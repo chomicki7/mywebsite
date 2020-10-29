@@ -2,6 +2,27 @@ html {
   scroll-behavior: smooth;
   margin: 0%;
   font-family: "Nunito", sans-serif;
+  font-size: calc(1em + 1vw);
+}
+
+h1 {
+  font-size: 2.2em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+a {
+  font-size: 0.6em;
+}
+
+p {
+  font-size: 0.5em;
 }
 
 h1,
@@ -15,19 +36,21 @@ h4 {
   background-image: url(./../background2.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: left;
+  padding-right: 15em;
 }
 
 .title {
-  width: 70%;
+  /*   width: 70%; */
   text-align: center;
   padding-bottom: 9em;
 }
 
 .title h1 {
-  font-size: 5em;
+  /*   font-size: 5em; */
   letter-spacing: 0.1em;
   width: 90%;
-  padding-top: 1em;
+  padding-top: 1.5em;
   padding-bottom: 0.5em;
   margin-left: 0.5em;
   color: #edf2f4;
@@ -35,7 +58,7 @@ h4 {
 }
 
 .title h3 {
-  font-size: 1.5em;
+  /*   font-size: 1.5em; */
   letter-spacing: 0.1em;
   color: #edf2f4;
   margin-top: 1em;
@@ -51,7 +74,7 @@ li {
   padding: 0.7em;
   border-radius: 8px;
   letter-spacing: 0.1em;
-  font-size: 1.1em;
+  /*   font-size: 1.1em; */
   background-color: #9d0208;
   box-shadow: 11px 9px 9px 5px rgba(0, 0, 0, 0.72);
 }
@@ -68,7 +91,7 @@ ul a {
 }
 
 .description p {
-  padding: 1em;
+  padding: 1.2em;
   margin-top: 1em;
   width: 30%;
   background-color: #03071e27;
@@ -77,16 +100,16 @@ ul a {
   color: #edf2f4;
   letter-spacing: 0.1em;
   line-height: 1.3em;
-  font-weight: 300;
+  font-weight: 400;
   border: 1px solid #edf2f4;
   min-width: 250px;
-  text-overflow: ellipsis;
-  overflow: hidden;
+  font-variant: small-caps;
+  text-align: justify;
+  text-indent: 2%;
 }
 
 span {
-  font-style: italic;
-  font-weight: 400;
+  font-weight: 600;
   color: #ffffff;
 }
 
@@ -119,18 +142,18 @@ span {
 
 .work h2,
 .contact h2 {
-  font-size: 2.2em;
+  /*   font-size: 2.2em; */
   padding: 2em 0;
 }
 
 .work h3 {
-  font-size: 1.5em;
+  /*   font-size: 1.5em; */
   padding-top: 2em;
 }
 
 .work span {
   color: #000000;
-  font-size: 0.7em;
+  /*   font-size: 0.7em; */
   font-family: "Nunito", sans-serif;
 }
 
@@ -147,12 +170,12 @@ span {
   flex-wrap: wrap;
 }
 
-.contact h2 {
+.contact h3 {
   color: #edf2f4;
 }
 
 .contact a {
-  font-size: 3em;
+  font-size: 1.5em;
   margin: 1em;
   padding: 0.3em;
   border-radius: 20px;
@@ -165,4 +188,9 @@ span {
   background-color: #0a0a0a;
 }
 
-@media screen and (max-width: 400);
+@media only screen and (min-width: 320px) and (max-width: 480px),
+  (orientation: portrait) {
+  .about {
+    padding: 0;
+  }
+}

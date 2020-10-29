@@ -29,7 +29,7 @@ class Main extends Component {
             </ul>
             <div className="description">
               <p>
-                <span>Self taught</span> developer,<span>eager to learn</span>{" "}
+                <span>Self taught</span> developer,<span> eager to learn</span>{" "}
                 new technologies. <span>A highly motivated</span> and
                 <span> goal-oriented</span> individual committed to pursuing a
                 long-term career change in development. Looking to take
@@ -66,7 +66,7 @@ class Main extends Component {
         </section>
 
         <section id="contact" className="contact">
-          <h2>Get in touch:</h2>
+          <h3>Get in touch:</h3>
           {/*           <div className="links"> */}
           <a
             href="https://www.linkedin.com/in/mariano-chomicki-134829103/"

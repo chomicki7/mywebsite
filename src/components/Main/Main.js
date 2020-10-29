@@ -66,7 +66,7 @@ class Main extends Component {
         </section>
 
         <section id="contact" className="contact">
-          <h3>Get in touch:</h3>
+          <h3>Lets connect:</h3>
           <a
             href="https://www.linkedin.com/in/mariano-chomicki-134829103/"
             target="_blank"

@@ -124,7 +124,7 @@ span {
   border-radius: 45px;
   box-shadow: 0px 12px 21px -5px rgba(0, 0, 0, 0.73);
   transition: 0.2s;
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -190,9 +190,9 @@ span {
 
 @media only screen and (min-width: 320px) and (max-width: 480px),
   (orientation: landscape) {
-  .about {
+  /*   .about {
     padding: 0;
-  }
+  } */
   .contact {
     flex-wrap: nowrap;
   }

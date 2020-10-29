@@ -196,10 +196,7 @@ span {
   .contact {
     flex-wrap: nowrap;
   }
-  .contact a {
-    font-size: 0.8em;
-  }
   .contact h3 {
-    padding: 1em;
+    display: none;
   }
 }

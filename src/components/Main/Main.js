@@ -67,7 +67,6 @@ class Main extends Component {
 
         <section id="contact" className="contact">
           <h3>Get in touch:</h3>
-          {/*           <div className="links"> */}
           <a
             href="https://www.linkedin.com/in/mariano-chomicki-134829103/"
             target="_blank"
@@ -89,7 +88,6 @@ class Main extends Component {
           >
             {github}
           </a>
-          {/*           </div> */}
         </section>
       </div>
     );

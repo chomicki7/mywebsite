@@ -198,6 +198,11 @@ span {
   .contact h3 {
     display: none;
   }
+  .work h2 {
+    padding-left: 3.2em;
+    padding-right: 3.2em;
+  }
+
   .work h3 {
     font-size: 0.8em;
   }

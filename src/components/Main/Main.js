@@ -53,7 +53,7 @@ class Main extends Component {
             <img src={Calculator} alt="calculadora"></img>
           </a>
           <h3>
-            <span>&#60;</span> Note-like Gym tracking App <span>/ &#62;</span>
+            <span>&#60;</span> Note-like Gym App <span>/ &#62;</span>
           </h3>
           <a
             href="https://codepen.io/chomicki7/full/KKMWrQL"

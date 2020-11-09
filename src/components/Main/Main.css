@@ -38,6 +38,7 @@ h4 {
   background-size: cover;
   text-align: left;
   padding-right: 15em;
+  height: 100vh;
 }
 
 .title {
@@ -48,7 +49,7 @@ h4 {
 .title h1 {
   letter-spacing: 0.1em;
   width: 90%;
-  padding-top: 1.3em;
+  padding-top: 1em;
   padding-bottom: 0.5em;
   margin-left: 0.5em;
   color: #edf2f4;
@@ -73,18 +74,28 @@ li {
   letter-spacing: 0.1em;
   background-color: #9d0208;
   box-shadow: 11px 9px 9px 5px rgba(0, 0, 0, 0.72);
+  transition: 0.5s;
 }
 
 ul a {
   margin: 3em 2em;
   text-decoration: none;
   color: #ffffff;
+  border: 1px solid #2c0203;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+a:hover {
+  border: 1px inset #a3a3a3a2;
+  border-radius: 0px;
+  color: #ffffff;
 }
 
 li:hover {
-  background-color: #b6070cb6;
-  border: 1px inset #8d8080;
-  padding: 0.6em;
+  background-color: #83060ab6;
+  border-radius: 0px;
+  color: #ffffff;
 }
 
 .description {
@@ -95,7 +106,7 @@ li:hover {
 .description p {
   padding: 1.2em;
   margin-top: 1em;
-  width: 30%;
+  width: 35%;
   background-color: #03071e7a;
   border-radius: 30px;
   box-shadow: 11px 9px 9px 5px rgba(0, 0, 0, 0.72);
@@ -189,6 +200,9 @@ span {
 
 @media only screen and (min-width: 320px) and (max-width: 480px),
   (orientation: portrait) {
+  .title h1 {
+    padding-top: 3em;
+  }
   .about {
     padding: 0;
   }
@@ -202,16 +216,12 @@ span {
     padding-left: 3.2em;
     padding-right: 3.2em;
   }
-
   .work h3 {
     font-size: 0.8em;
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
-  /*   .about {
-    padding: 0;
-  } */
   .contact {
     flex-wrap: nowrap;
   }

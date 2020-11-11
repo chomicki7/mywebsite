@@ -7,9 +7,9 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-const github = <FontAwesomeIcon icon={faGithub} />;
-const envelope = <FontAwesomeIcon icon={faEnvelope} />;
-const linkedin = <FontAwesomeIcon icon={faLinkedin} />;
+const github = <FontAwesomeIcon icon={faGithub} className="icon" />;
+const envelope = <FontAwesomeIcon icon={faEnvelope} className="icon" />;
+const linkedin = <FontAwesomeIcon icon={faLinkedin} className="icon" />;
 
 class Main extends Component {
   render() {

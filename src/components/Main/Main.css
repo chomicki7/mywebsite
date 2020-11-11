@@ -198,6 +198,10 @@ span {
   background-color: #0a0a0a;
 }
 
+.icon {
+  color: white;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 480px),
   (orientation: portrait) {
   .title h1 {

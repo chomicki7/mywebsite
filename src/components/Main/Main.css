@@ -218,9 +218,16 @@ span {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 768px) and (orientation: landscape) {
+@media only screen and (min-width: 400px) and (max-width: 900px) {
   html {
     width: 100%;
+  }
+  .title h3,
+  .list {
+    display: none;
+  }
+  .description p {
+    font-size: 0.4em;
   }
   .contact {
     flex-wrap: nowrap;

@@ -119,12 +119,14 @@ span {
 }
 
 .work {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   border-bottom: 20px solid #8d0c0c;
   border-top: 20px solid #8d0c0c;
+}
+
+.work_container {
+  display: flex;
+  align-items: center;
 }
 
 .work a img {
@@ -194,7 +196,7 @@ span {
   color: white;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px),
+@media only screen and (min-device-width: 320px) and (max-width: 480px),
   (orientation: portrait) {
   .title h1 {
     padding-top: 3em;
@@ -218,8 +220,7 @@ span {
   }
 }
 
-@media only screen and (min-width: 500px) and (max-width: 900px),
-  (orientation: landscape) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   html {
     width: 100%;
   }

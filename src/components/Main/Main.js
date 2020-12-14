@@ -42,27 +42,34 @@ class Main extends Component {
         </section>
         <section className="work" id="work">
           <h2>Last projects I have done</h2>
-          <h3>
-            <span>&#60;</span> Vanilla JS Calculator <span>/ &#62;</span>
-          </h3>
-          <a
-            href="https://codepen.io/chomicki7/full/yLJMQJr"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={Calculator} alt="calculadora"></img>
-          </a>
-          <h3>
-            <span>&#60;</span> Note-like Gym App <span>/ &#62;</span>
-          </h3>
-          <a
-            href="https://codepen.io/chomicki7/full/KKMWrQL"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="margin"
-          >
-            <img src={Track} alt="track app"></img>
-          </a>
+          <div className="work_container">
+            <div>
+              <h3>
+                <span>&#60;</span> Vanilla JS Calculator <span>/ &#62;</span>
+              </h3>
+              <a
+                href="https://codepen.io/chomicki7/full/yLJMQJr"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src={Calculator} alt="calculadora"></img>
+              </a>
+            </div>
+
+            <div>
+              <h3>
+                <span>&#60;</span> Note-like Gym App <span>/ &#62;</span>
+              </h3>
+              <a
+                href="https://codepen.io/chomicki7/full/KKMWrQL"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="margin"
+              >
+                <img src={Track} alt="track app"></img>
+              </a>
+            </div>
+          </div>
         </section>
 
         <section id="contact" className="contact">

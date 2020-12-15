@@ -127,6 +127,8 @@ span {
 .work_container {
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .work a img {

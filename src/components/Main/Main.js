@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import "./Main.css";
 import Calculator from "../calc2.png";
 import Track from "../track2.png";
+import Iphone from "../iphone_web.png";
+import Yatch from "../yatch_web.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -69,11 +71,38 @@ class Main extends Component {
                 <img src={Track} alt="track app"></img>
               </a>
             </div>
+
+            <div>
+              <h3>
+                <span>&#60;</span> Yatch Web <span>/ &#62;</span>
+              </h3>
+              <a
+                href="https://yats-web.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="margin"
+              >
+                <img src={Yatch} alt="Yatch web"></img>
+              </a>
+            </div>
+
+            <div>
+              <h3>
+                <span>&#60;</span> iPhone Web <span>/ &#62;</span>
+              </h3>
+              <a
+                href="https://iphone-mock.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="margin"
+              >
+                <img src={Iphone} alt="iPhone web"></img>
+              </a>
+            </div>
           </div>
         </section>
 
         <section id="contact" className="contact">
-          <h3>Lets connect:</h3>
           <a
             href="https://www.linkedin.com/in/mariano-chomicki-134829103/"
             target="_blank"

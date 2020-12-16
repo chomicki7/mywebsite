@@ -161,10 +161,8 @@ span {
 .work span {
   color: #000000;
   font-family: "Nunito", sans-serif;
-}
-
-.margin {
-  margin-bottom: 5em;
+  font-size: 0.7em;
+  font-weight: 400;
 }
 
 .contact {
@@ -182,7 +180,7 @@ span {
 
 .contact a {
   font-size: 1.5em;
-  margin: 1em;
+  margin: 0.5em;
   padding: 0.3em;
   border-radius: 20px;
   text-align: center;

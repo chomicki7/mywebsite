@@ -43,7 +43,7 @@ class Main extends Component {
           </div>
         </section>
         <section className="work" id="work">
-          <h2>Last projects I have done</h2>
+          <h2>Last projects I've been working on</h2>
           <div className="work_container">
             <div>
               <h3>

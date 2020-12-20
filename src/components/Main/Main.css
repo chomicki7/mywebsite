@@ -188,12 +188,16 @@ span {
 }
 
 .contact a:hover {
-  background-color: #0a0a0a;
+  background-color: #000;
   transform: translateY(-15px);
 }
 
 .icon {
-  color: white;
+  color: rgb(211, 211, 211);
+}
+
+.contact a:hover .icon {
+  color: #ffffff;
 }
 
 @media only screen and (min-device-width: 320px) and (max-width: 480px),

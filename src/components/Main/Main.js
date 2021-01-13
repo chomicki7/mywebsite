@@ -28,7 +28,7 @@ class Main extends Component {
             <h3> &#60; Web Developer &#62;</h3>
             <ul className="list">
               <a href="#work">
-                <li>Works</li>
+                <li>Projects</li>
               </a>
               <a href="#contact">
                 <li>Contact</li>

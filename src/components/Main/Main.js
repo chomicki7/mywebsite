@@ -1,9 +1,13 @@
 import React, { Component } from "react";
 import "./Main.css";
+
+// images
 import Calculator from "../calc2.png";
 import Track from "../track2.png";
 import Iphone from "../iphone_web.png";
 import Yatch from "../yatch_web.png";
+
+//icons
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -17,6 +21,7 @@ class Main extends Component {
   render() {
     return (
       <div>
+        {/* landing  */}
         <section className="about">
           <div className="title">
             <h1>Mariano Chomicki</h1>
@@ -42,6 +47,8 @@ class Main extends Component {
             </div>
           </div>
         </section>
+
+        {/* Projects section  */}
         <section className="work" id="work">
           <h2>Last projects I've been working on</h2>
           <div className="work_container">
@@ -61,6 +68,10 @@ class Main extends Component {
             <div>
               <h3>
                 <span>&#60;</span> Note-like Gym App <span>/ &#62;</span>
+                {/*                 <p>
+                  Made this project to practice js, uploaded on a codepen so you
+                  can read the code.{" "}
+                </p> */}
               </h3>
               <a
                 href="https://codepen.io/chomicki7/full/KKMWrQL"
@@ -102,6 +113,7 @@ class Main extends Component {
           </div>
         </section>
 
+        {/* Contact links section  */}
         <section id="contact" className="contact">
           <a
             href="https://www.linkedin.com/in/mariano-chomicki-134829103/"

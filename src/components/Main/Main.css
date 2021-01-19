@@ -81,13 +81,14 @@ ul a {
   margin: 3em 2em;
   text-decoration: none;
   color: #ffffff;
-  border: 1px solid #2c0203;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 
 .about li:hover {
   background-color: #83060ab6;
   color: #ffffff;
+  transform: translate(4px, 4px);
+  box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.72);
 }
 
 .description {
